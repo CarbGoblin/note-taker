@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: #1e1e1e;
     color: white;
     min-height: 100vh;
     overflow: hidden;
@@ -23,7 +23,7 @@ body {
 }
 .box {
     border: 2px;
-    border-color: red;
+    border-color: white;
     border-style: solid;
 }
 
@@ -31,6 +31,7 @@ body {
     text-align: center;
     padding: 32px 0px;
     height: 10vh;
+    font-size: 32px;
 }
 
 #mainbody {
@@ -56,7 +57,7 @@ body {
     flex-wrap: wrap;
     overflow-y: auto;
     border: 2px;
-    border-color: green;
+    border-color: white;
     border-style: solid;
 }
 
@@ -65,11 +66,12 @@ body {
     border-style: solid;
     height: 200px;
     width: 300px;
-    margin: 32px 80px;
+    margin: 16px 32px;
 }
 
 #footer {
     margin-top: auto;
     text-align: center;
     height: 5vh;
+    font-size: 16px;
 }
